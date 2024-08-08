@@ -1,0 +1,45 @@
+.footer {
+  background-color: #000000; /* Чёрный фон */
+  color: #ffffff; /* Белый текст для контраста */
+  padding: 20px 0; /* Вертикальные отступы */
+  font-family: Arial, sans-serif; /* Шрифт для текста */
+}
+
+.footer-info {
+  text-align: center;
+  padding-bottom: 15px; /* Отступ снизу */
+}
+
+.footer-info p {
+  margin: 15px 0; /* Маленькие отступы между строками */
+}
+
+.footer-info a {
+  color: #ffffff; /* Цвет ссылки */
+  text-decoration: none; /* Убрать подчёркивание текста */
+}
+
+.footer-icons {
+  text-align: center; /* Центрирование иконок */
+  padding: 20px 0; /* Отступы */
+}
+
+.footer-icons a {
+  color: #ffffff; /* Цвет иконок */
+  margin: 0 10px; /* Отступы между иконками */
+  font-size: 24px; /* Размер иконок */
+}
+
+.footer-line {
+  height: 1px; /* Высота линии */
+  background-color: #ffffff; /* Цвет линии */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+/* Пример ответа иконок на наведение */
+.footer-icons a:hover {
+  color: #dddddd; /* Светло-серый цвет при наведении */
+}
+.footer p {
+  font-size: 1.2em; /* Уменьшение размера текста */
+}

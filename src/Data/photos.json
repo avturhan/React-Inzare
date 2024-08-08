@@ -1,0 +1,135 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/21034938.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/32192043.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/33204125.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/33988610.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/76333795.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/96528413.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/84354371.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/Серноводская-натурал.-горная-вода-05-л.-1.jpg"
+    },
+
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/33204125.jpg"
+    },
+
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/21034938.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/69559644.jpg"
+    },
+
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/84354371.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/84354371.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/84354371.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/84354371.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Вода без газа 0,5 л",
+      "description": "Чистая природная вода из артезианского источника",
+      "price": 340,
+      "category": "drinking-water",
+      "imgSrc": "/imgDrinks/84354371.jpg"
+    }
+  ]
+}

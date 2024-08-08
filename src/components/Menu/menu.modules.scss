@@ -1,0 +1,191 @@
+/* Стили для контейнера меню */
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Стили для каждой колонки меню */
+.menu {
+  flex: 1;
+  margin-right: 20px; /* Отступ между колонками */
+}
+
+/* Стили для каждой категории меню */
+.menu h3 {
+  font-size: 1.8em; /* Размер шрифта заголовка категории */
+  color: #4caf50; /* Зеленый цвет текста заголовка */
+  margin-bottom: 10px; /* Отступ снизу заголовка */
+  padding-left: 20px;
+}
+
+/* Стили для каждого пункта меню */
+.menu-items div {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Горизонтальная линия между пунктами */
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+/* Эффект при наведении на пункт меню */
+.menu-items div:hover {
+  background-color: #f0f0f0; /* Изменяем цвет фона при наведении */
+  cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+/* Стили для кнопки заказа */
+.order-button {
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  font-size: 1.4em; /* Размер шрифта кнопки */
+  background-color: #4caf50; /* Зеленый цвет фона кнопки */
+  color: #fff; /* Белый цвет текста кнопки */
+  border: none; /* Убираем границу кнопки */
+  border-radius: 5px; /* Скругление углов кнопки */
+  margin-top: 20px; /* Отступ сверху кнопки */
+  margin-bottom: 40px; /* Отступ снизу кнопки */
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+  cursor: pointer; /* Указатель при наведении */
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Эффект при наведении на кнопку заказа */
+.order-button:hover {
+  background-color: #45a049; /* Изменение цвета фона кнопки при наведении */
+}
+/* Стили для контейнера меню */
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #f5f5f5; /* Светло-серый фон */
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Стили для каждой колонки меню */
+.menu {
+  flex: 1;
+  margin-right: 20px; /* Отступ между колонками */
+  background: #ffffff; /* Белый фон для колонок */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu:last-child {
+  margin-right: 0; /* Убираем отступ для последней колонки */
+}
+
+/* Стили для каждой категории меню */
+.menu h3 {
+  font-size: 1.8em; /* Размер шрифта заголовка категории */
+  color: #4caf50; /* Зеленый цвет текста заголовка */
+  margin-bottom: 10px; /* Отступ снизу заголовка */
+  padding-left: 20px;
+}
+
+/* Стили для каждого пункта меню */
+.menu-items div {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Горизонтальная линия между пунктами */
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+/* Эффект при наведении на пункт меню */
+.menu-items div:hover {
+  background-color: #f0f0f0; /* Изменяем цвет фона при наведении */
+  cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+/* Основные стили для меню */
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  flex: 1;
+  margin-right: 20px; /* Отступ между колонками */
+}
+
+.menu h3 {
+  font-size: 1.8em; /* Размер шрифта заголовка категории */
+  color: #4caf50; /* Зеленый цвет текста заголовка */
+  margin-bottom: 30px; /* Отступ снизу заголовка */
+  padding-left: 20px;
+}
+
+.menu-items div {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Горизонтальная линия между пунктами */
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.menu-items div:hover {
+  background-color: #f0f0f0; /* Изменяем цвет фона при наведении */
+  cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+/* Стили для кнопки заказа */
+.order-button {
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  font-size: 1.4em; /* Размер шрифта кнопки */
+  background-color: #4caf50; /* Зеленый цвет фона кнопки */
+  color: #fff; /* Белый цвет текста кнопки */
+  border: none; /* Убираем границу кнопки */
+  border-radius: 5px; /* Скругление углов кнопки */
+  margin-top: 20px; /* Отступ сверху кнопки */
+  margin-bottom: 40px; /* Отступ снизу кнопки */
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+  cursor: pointer; /* Указатель при наведении */
+  text-align: center; /* Выравнивание текста по центру */
+  
+}
+
+/* Эффект при наведении на кнопку заказа */
+.order-button:hover {
+  background-color: #45a049; /* Изменение цвета фона кнопки при наведении */
+}
+
+/* Стили для элементов аккордеона */
+.menu-item {
+  background: #f9f9f9; /* Светло-серый фон для пунктов меню */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  position: relative;
+}
+
+.menu-item:hover {
+  background: #e0f7fa; /* Светло-голубой фон при наведении */
+}
+
+.menu-item .details {
+  display: none; /* Скрыть детали по умолчанию */
+  background: #fff; /* Белый фон для деталей */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.menu-item.active .details {
+  display: block; /* Показать детали, если элемент активен */
+}
+
+.menu-item img {
+  max-width: 100%; /* Фото будет занимать всю доступную ширину */
+  border-radius: 5px;
+}
+
+.menu-item .price {
+  font-size: 1.2em; /* Размер шрифта для цены */
+  color: #007bff; /* Синий цвет для цены */
+  margin-top: 10px;
+  text-align: right;
+}

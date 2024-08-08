@@ -1,0 +1,20 @@
+/* Стили для приветственного раздела */
+.welcome-message {
+  text-align: center; /* Выравнивание по центру */
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+  padding: 20px; /* Внутренние отступы */
+  border-radius: 10px; /* Закругление углов */
+  margin-top: 20px; /* Отступ сверху */
+}
+
+.welcome-message h1 {
+  color: #274472; /* Темно-синий цвет текста */
+  font-size: 3em; /* Большой размер шрифта */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.welcome-message p {
+  color: #52796f; /* Зеленый цвет текста */
+  font-size: 1.5em; /* Средний размер шрифта */
+  margin-bottom: 20px; /* Отступ снизу */
+}

@@ -1,0 +1,45 @@
+.order-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0; /* Светлый фон для секции */
+    color: #333; /* Темный текст для контраста */
+  }
+  
+  .order-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em; /* Отступ между заголовком и шагами */
+  }
+  
+  .order-steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em; /* Отступ между шагами и ссылкой "вернуться к напиткам" */
+  }
+  
+  .step {
+    margin: 20px;
+  }
+  
+  .step h3 {
+    font-size: 1.5em;
+    color: #007bff; /* Синий цвет для заголовков шагов */
+    margin-bottom: 0.5em;
+  }
+  
+  .back-to-drinks {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff; /* Подчеркивание для ссылки */
+  }
+  
+  .back-to-drinks:hover {
+    color: #0056b3; /* Темно-синий цвет при наведении */
+    border-bottom: 1px solid #0056b3; /* Сплошное подчеркивание при наведении */
+  }
+  
+  .order-section p {
+    font-size: 20px;
+  }
+  

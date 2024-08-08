@@ -1,0 +1,213 @@
+/* Header Styles */
+header {
+  background-color: #ffffff; /* Чистый белый цвет фона */
+  color: #005f73; /* Темно-синий цвет текста */
+  border-bottom: 3px solid #000000; /* Подчеркивание шапки цветом морской волны */
+  padding: 20px 0px; /* Отступы сверху и снизу шапки */
+  box-shadow: 0 2px 4px rgba(235, 224, 224, 0.1); /* Легкая тень для глубины */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: #333;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+h1 {
+  font-size: 2em; /* Большой размер для заголовка */
+  color: #003e4f; /* Темный синий для визуального воздействия */
+  font-weight: bold; /* Жирный шрифт для внимания */
+  margin: 0.5em; /* Убрать все отступы по умолчанию */
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.t-store__parts-switch-btn.t-active,
+.t-store__parts-switch-btn:hover {
+  background-color: #cccccc; /* Цвет фона при наведении и для активного элемента */
+}
+
+.t-storegrid-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px; /* Расстояние между карточками */
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Card styles */
+.t-storecard {
+  flex-basis: calc(25.9% - 20px); /* Ширина карточки для трех колонок */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.t-storecard:hover {
+  background-color: #e9e9e9;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.t-storecardimg {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.t-storecarddescr {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.t-storecardprice {
+  font-size: 18px;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.t-storecardquantitylabel {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.t-storecardquantitybutton {
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.t-storecardquantityinput {
+  font-size: 16px;
+  color: #333;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.js-product button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.js-product button:hover {
+  background-color: #000000;
+}
+
+button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+.close:hover,
+.close:focus {
+  color: #000; /* Цвет крестика при наведении */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.switch-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.switch-wrapper .t-menulink-item {
+  display: inline-block;
+  margin: 5px 10px; /* Отступы между кнопками */
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #eeeeee; /* Цвет фона кнопки */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавное изменение фона и цвета текста */
+  font-size: 16px;
+  text-transform: capitalize; /* Первоначальная заглавная буква каждого слова */
+}
+
+.switch-wrapper .t-menulink-item.t-active {
+  background-color: #007bff; /* Цвет фона активной кнопки */
+  color: #ffffff; /* Цвет текста активной кнопки */
+}
+
+.switch-wrapper .t-menulink-item:hover {
+  background-color: #cccccc; /* Цвет фона кнопки при наведении */
+  color: #333333; /* Цвет текста кнопки при наведении */
+}
+
+.switch-wrapper .t-menulink-item:focus {
+  outline: none; /* Убираем стандартное обводка при фокусе */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Легкая тень при фокусе для улучшения доступности */
+}
